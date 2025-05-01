@@ -1,0 +1,10 @@
+# Check if Array is Sorted
+def is_sorted(arr, index = 0):
+	for i in range(len(arr)-1):
+		if arr[i]<arr[i+1]:
+			continue
+		else:
+			return False
+			break
+	return True
+print(is_sorted([1, 2, 5, 4]))

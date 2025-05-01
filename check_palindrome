@@ -1,0 +1,8 @@
+# Check Palindrome
+def is_palindrome(s):
+	d = s[::-1]
+	if d == s:
+		return True
+	else:
+		return False
+print(is_palindrome("madam"))

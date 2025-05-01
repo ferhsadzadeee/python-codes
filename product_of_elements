@@ -1,0 +1,8 @@
+# Product of Elements in List
+def product_list(arr):
+	p = 1
+	for i in range(len(arr)):
+		d = int(arr[i])
+		p = p*d
+	return p
+print(product_list([2, 3, 4]))

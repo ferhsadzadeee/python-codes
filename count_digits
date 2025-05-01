@@ -1,0 +1,5 @@
+# Count Digits
+def count_digits(n):
+	d = str(n)
+	return len(d)
+print(count_digits(1234))
