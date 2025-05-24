@@ -1,0 +1,14 @@
+n = int(input(""))
+m = int(input(""))
+c = m*n
+s = 0 
+for i in range(c):
+  color = input("pleas enter c, m, y, w, g, b")
+  if color == c or color == m or color == y or color == w or  color == g or color ==  b:
+    s = s + 1
+  else:
+    continue
+if s <= 0:
+  print("#Black&White")
+else:
+  print("#Color")
