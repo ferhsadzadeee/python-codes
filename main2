@@ -1,0 +1,13 @@
+#Rəqəm təxmin oyunu
+d = int(input(""))
+import random
+b = random.randint(1, d)
+while True:
+    a = int(input("ədəd təxmin et: "))
+    if a < b:
+        print("daha böyük: ")
+    elif a > b:
+        print("daha kiçik: ")
+    else:
+        print("düzdürr")
+        break
