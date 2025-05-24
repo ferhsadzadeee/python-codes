@@ -1,0 +1,15 @@
+#Brain's Photos
+n = int(input(""))
+m = int(input(""))
+c = m*n
+s = 0 
+for i in range(c):
+  color = input("pleas enter c, m, y, w, g, b")
+  if color == "w" or color ==  "b":
+    continue
+  else:
+    s = s + 1
+if s <= 0:
+  print("#Black&White")
+else:
+  print("#Color")
